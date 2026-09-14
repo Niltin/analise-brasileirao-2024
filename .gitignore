@@ -1,0 +1,4 @@
+.venv/
+__pycache__/
+*.pyc
+brasileiro_2024.db

@@ -4,7 +4,7 @@ import sqlite3
 import matplotlib.pyplot as plt
 import seaborn as sns
 #
-csv_path = Path(__file__).resolve().parent / "Brasileiro 2024 (Srie A) - Dataset - Final.csv"
+csv_path = Path(__file__).resolve().parent / "dados.csv"
 
 df = pd.read_csv(csv_path,header=None)
 df.columns = ['Data','Hora','Mandante','Placar','Visitante','Publico','Estadio']
